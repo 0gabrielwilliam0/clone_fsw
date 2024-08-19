@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color-theme: #141518;
+    --secondary-color-teme: #1A1B1F;
+    --primary-color-text: #fff;
+    --main-color-icons: #fff;
+    --text-color: #838896;
+    --button-color: #221C3D;
+    --button-text-color: #8162FF;
+    --bar_divider: #26272B;
+    --side_bar: scroll;
+}
+
+body {
+    background-color: var(--primary-color-theme);
+    overflow-y: var(--side_bar);
+}
+
+.navigation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    border-bottom: 1px solid var(--bar_divider);
+}
+
+.btn_menu {
+    cursor: pointer;
+}
+
+.screen_welcome {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    color: var(--primary-color-text);
+}
+
+.fiel_group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
+.fiel_search {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.input_search {
+    width: 100%;
+    height: 3rem;
+    padding: 0 1rem;
+    background-color: var(--secondary-color-teme);
+    border: 1px solid #26272B;
+    border-radius: 8px;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.btn_search {
+    width: 4rem;
+    height: 3rem;
+    background-color: #8162FF;
+    border: 1px solid var(--button-text-color);
+    border-radius: 8px;
+    color: var(--primary-color-text);
+    cursor: pointer;
+}
+
+.search_quicky > ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-decoration: none;
+    list-style: none;
+    margin: 2rem 0 1.5rem;
+}
+
+.btn_quicky {
+    width: auto;
+    display: flex;
+    gap: 10px;
+    padding: 1rem 1.5rem;
+    background-color: var(--secondary-color-teme);
+    border: 1px solid var(--bar_divider);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.fsw_banner {
+    width: 100%;
+    height: 150px;
+}
+
+.agendamentos {
+    padding: 0 2rem;
+}
+
+.agendamentos > h2 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+.agendamento_marcado {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--secondary-color-teme);
+    border: 1px solid var(--bar_divider);
+    border-radius: 10px;
+    padding: .5rem 1rem;
+}
+
+.agendamento_info {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.agendamento_info > button {
+    width: 120px;
+    padding: .1rem 1rem;
+    background-color: var(--button-color);
+    border: 1px solid var(--button-color);
+    border-radius: 100px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--button-text-color);
+    cursor: pointer;
+}
+
+.agendamento_info > h3 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    color: var(--main-color-icons);
+}
+
+
+.barbearia_info > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;   
+}
