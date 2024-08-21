@@ -224,7 +224,7 @@ body {
 }
 
 .barbearia_recom {
-    width: 167px;
+    width: 170px;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -281,6 +281,7 @@ body {
     font-family: "Nunito", sans-serif;
     font-weight: 700;
     font-size: 14px;
+    text-transform: capitalize;
 }
 
 .avaliacao {
