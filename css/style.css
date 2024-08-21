@@ -157,9 +157,190 @@ body {
     color: var(--main-color-icons);
 }
 
+.barbearia_info {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
 
 .barbearia_info > img {
     width: 40px;
     height: 40px;
     border-radius: 100px;   
 }
+
+.barbearia_info > h3 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--primary-color-text);
+    text-transform: capitalize;
+}
+
+.agendamento_data {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid var(--bar_divider);
+    border-radius: 0 10px 10px 0;
+    padding: .5rem 1rem;
+}
+
+.agendamento_data > p {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--primary-color-text);
+}
+
+.agendamento_data > h2 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    color: var(--primary-color-text);
+}
+
+.barbearias {
+    padding: 1rem 2rem;
+}
+
+.recomendadas > h2 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--text-color);
+    margin-bottom: 0.8rem;
+}
+
+.lista_recomendadas > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1rem;
+}
+
+.barbearia_recom {
+    width: 167px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--bar_divider);
+    border-radius: 20px;
+    background-color: var(--secondary-color-teme);
+}
+
+.barbearia_recom > img {
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-top: .5rem;
+}
+
+.barbe_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 1rem;
+}
+
+.barbe_info > h3 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: larger;
+    padding: .5rem 0 .2rem;
+    color: var(--primary-color-text);
+}
+
+.barbe_info > p {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: small;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+/* 
+    CORRIGIR
+    ajustar o texto para que o botão se mantenha em uma mesma linha, se que
+    tenha que alterar a distancia do botão com o endereço
+
+*/
+
+.barbe_info > button {
+    padding: .5rem;
+    background-color: var(--bar_divider);
+    color: var(--primary-color-text);
+    border: 1px solid var(--bar_divider);
+    border-radius: 10px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.avaliacao {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .2rem;
+    padding: .2rem .4rem;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--primary-color-theme);
+}
+
+.avaliacao > h5 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--primary-color-text)
+}
+
+.material-symbols-outlined {
+    color: var(--button-text-color);
+}
+
+.populares > h2 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--text-color);
+    margin: 1rem .8rem;
+}
+
+.lista_populares > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1rem;
+}
+
+.barbearia_popu {
+    width: 167px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--bar_divider);
+    border-radius: 20px;
+    background-color: var(--secondary-color-teme);
+}
+
+
+.barbearia_popu > img {
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-top: .5rem;
+}
+
