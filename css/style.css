@@ -110,6 +110,7 @@ body {
 
 .agendamentos {
     padding: 0 2rem;
+    display: none;
 }
 
 .agendamentos > h2 {
@@ -345,3 +346,12 @@ body {
     margin-top: .5rem;
 }
 
+footer {
+    width: 100%;
+    padding: 24px 20px;
+    background-color: var(--secondary-color-teme);
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    color: var(--text-color);
+}
