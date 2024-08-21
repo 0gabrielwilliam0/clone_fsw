@@ -12,12 +12,20 @@
     --button-color: #221C3D;
     --button-text-color: #8162FF;
     --bar_divider: #26272B;
-    --side_bar: scroll;
+    --side_bar: hidden;
 }
 
 body {
     background-color: var(--primary-color-theme);
-    overflow-y: var(--side_bar);
+    overflow-x: var(--side_bar);
+}
+
+body::-webkit-scrollbar {
+    width: 1px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: var(--button-color);
 }
 
 .navigation {
